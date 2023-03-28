@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [LiveTVshows] <a name="about-project"></a>
+# <a name="about-project"></a>
 
 "Math Magicians" is a website for fans of math. It is a Single Page Application that allows users to make simple calculations and read a random math-related quote. I built this web app to learn how to use React.
 
