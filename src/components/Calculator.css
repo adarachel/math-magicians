@@ -1,11 +1,4 @@
-.app {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .calculator {
+.calculator {
     width: 300px;
     border: 1px solid black;
     border-radius: 5px;
@@ -53,5 +46,4 @@
     background-color: #ff8c00;
     color: white;
   }
-  
   
