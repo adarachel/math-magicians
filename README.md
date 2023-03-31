@@ -131,6 +131,8 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Coming Soon]()
+![calc2](https://user-images.githubusercontent.com/108772486/229098409-242e15d2-03b4-4658-87df-f251c98db8b4.png)
+![calc3](https://user-images.githubusercontent.com/108772486/229098425-26c5b6f8-215c-472f-99dc-e94b70bbee4c.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
