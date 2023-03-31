@@ -60,9 +60,42 @@ After you're finished please remove all the comments and instructions!
 
 ## 🛠 Built With <a name="built-with">
 
-### Tech Stack <a name="tech-stack">
+### Tech Stack <a name="tech-stack"></a>
 
-</a>
+>- HTML
+>- CSS
+>- JavaScript ES6
+>- NodeJS
+
+<details>
+  <summary>HTML</summary>
+  <ul>
+    <li><a href="https://html.com/#What_is_HTML">index.html</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://html.com/css/#What_is_CSS">style.css</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javascript/">script.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>NodeJS</summary>
+  <ul>
+    <li><a href="https://nodejs.org/en">Node.js</a></li>
+  </ul>
+</details>
+<br>
+
 
 <details>
   <summary>Client</summary>
@@ -86,13 +119,18 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
+>- Project using React framework
+>- Use ES6 modules to write modular JavaScript
+>- Read a random math-related quote
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[**live demo**]()
+- [Coming Soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,8 +211,9 @@ Visual studio code, another realiable code editor or a Web browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] ** **
-- [ ] ** **
+> - [ ] Add Components
+> - [ ] Add events
+> - [ ] Fetch data from API
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
