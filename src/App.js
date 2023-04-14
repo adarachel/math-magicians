@@ -10,16 +10,16 @@ import './navbar.css';
 const App = () => (
   <Router>
     <nav className="navbar">
-      {/* use class name */}
-      <ul>
+      <h1>Awesome Books</h1>
+      <ul className="navbar-links">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className="navbar-link">Home</Link>
         </li>
         <li>
-          <Link to="/calculator">Calculator</Link>
+          <Link to="/calculator" className="navbar-link">Calculator</Link>
         </li>
         <li>
-          <Link to="/quote">Quotes</Link>
+          <Link to="/quote" className="navbar-link">Quotes</Link>
         </li>
       </ul>
     </nav>
