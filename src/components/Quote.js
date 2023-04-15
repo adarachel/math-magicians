@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './Quote.css'; 
+import './Quote.css';
 
 const Quotes = () => {
   const [quote, setQuote] = useState([]);
