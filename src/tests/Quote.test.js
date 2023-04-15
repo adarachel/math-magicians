@@ -2,13 +2,17 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import Quote from '../components/Quote';
 
-test('Quote component renders correctly', () => {
-  const { asFragment } = render(<Quote />);
-  expect(asFragment()).toMatchSnapshot();
-});
+describe('Quote', () => {
+  it('renders correctly', () => {
+    const { asFragment } = render(<Quote />);
+    expect(asFragment()).toMatchSnapshot();
+  });
 
-test('Quote component displays quote text', () => {
-  const { getByText } = render(<Quote />);
-  const quoteElement = getByText(/Mathematics is not about numbers/i);
-  expect(quoteElement).toBeInTheDocument();
+  it('displays the quote text and author correctly', () => {
+    const quoteText = 'Test Quote Text';
+    const quoteAuthor = 'Test Quote Author';
+    const { getByTestId } = render(<Quote text={quoteText} author={quoteAuthor} />);
+    expect(getByTestId('quote-text')).toHaveTextContent(quoteText);
+    expect(getByTestId('quote-author')).toHaveTextContent(quoteAuthor);
+  });
 });
